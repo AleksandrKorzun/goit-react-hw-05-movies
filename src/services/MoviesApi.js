@@ -34,6 +34,7 @@ const getMoviesReviews = async (id) => {
         throw new Error(error)
     }
 }
+
 const getSearchMovies = async (movie) => {
     try {
         if (!movie) return
