@@ -10,7 +10,6 @@ const getMovies = async () => {
         throw new Error(error)
     }
 }
-
 const getMoviesById = async (id) => {
     try {
         const response = await axios.get(`${BASE_URL}3/movie/${id}?api_key=${KEY}&language=en-US`)
