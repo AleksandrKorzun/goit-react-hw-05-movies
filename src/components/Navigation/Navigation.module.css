@@ -1,0 +1,15 @@
+.navList {
+    list-style-type: none;
+    display: flex;
+}
+.navLink{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 25px;
+}
+.navLink:first-child{
+    margin-right: 15px;
+}
+.navLinkActive {
+    color: darkkhaki;
+}
